@@ -71,7 +71,7 @@ a {
     color: #03ad4a;
 }
 
-.nav__cart{
+.nav__cart {
     margin-left: auto;
 }
 
@@ -126,6 +126,12 @@ a {
     color: #000000;
 }
 
+.color {
+    background: linear-gradient(100deg, rgb(249, 249, 3), rgb(92, 207, 92), rgb(249, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .header__text {
     font-weight: 400;
     font-size: 22px;
@@ -134,12 +140,12 @@ a {
     margin-bottom: 60px;
 }
 
-.button {  
-    padding: 5px 33px 11px 33px;    
+.button {
+    padding: 5px 33px 11px 33px;
     background-color: #03ad4a;
     box-shadow: 0px 4px 15px rgba(61, 143, 76, 0.35);
     border-radius: 4px;
-    font-family: 'Playfair Display', serif;    
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 26px;
     line-height: 1px;
@@ -148,7 +154,7 @@ a {
     transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
 }
 
-.button:hover{
+.button:hover {
     box-shadow: 0px 4px 25px rgba(51, 117, 3, 0.671);
     background-color: #03ad4a;
 }
