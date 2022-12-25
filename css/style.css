@@ -18,6 +18,8 @@ a {
     margin: 0 auto;
 }
 
+/* styling nav start */
+
 .nav {
     padding: 40px 0;
 }
@@ -88,3 +90,19 @@ a {
     background-color: #F72464;
     text-align: center;
 }
+
+/* styling nav end */
+
+/* styling header start */
+
+.header {
+    
+}
+
+.header__row {}
+
+.header__text {}
+
+.header__photo {}
+
+/* styling header end */
