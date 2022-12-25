@@ -1,5 +1,25 @@
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+}
+
+.container {}
+
+.nav {}
+
+.nav__row {}
+
+.nav__logo {}
+
+.nav__nav {}
+
+.nav__item {}
+
+.nav__link {}
+
+.nav__cart {}
