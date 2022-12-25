@@ -25,6 +25,7 @@ a {
 .nav__row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo {
@@ -36,7 +37,7 @@ a {
 }
 
 .nav__logo:hover {
-    color:  #F72464;
+    color: #F72464;
 }
 
 .nav__list {
@@ -62,23 +63,18 @@ a {
     color: #000000;
 }
 
-.nav__link:hover{
-    color:  #F72464;
+.nav__link:hover {
+    color: #F72464;
 }
 
-.nav__cart {
-
-    
-
-}
-
-.nav__cart-link{
+.nav__cart-link {
     position: relative;
     display: inline-block;
     padding: 5px;
+    top: 5px;
 }
 
-.nav__cart-number{
+.nav__cart-number {
     position: absolute;
     top: -5px;
     right: -5px;
@@ -89,7 +85,6 @@ a {
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
-    background-color:  #F72464;
+    background-color: #F72464;
     text-align: center;
-
 }
