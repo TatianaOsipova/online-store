@@ -96,10 +96,13 @@ a {
 /* styling header start */
 
 .header {
-    
+
 }
 
-.header__row {}
+.header__row {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .header__text {}
 
