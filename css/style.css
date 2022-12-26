@@ -161,7 +161,7 @@ a {
 
 /* styling header end */
 
-/* styling section featured start */
+/* styling section new start */
 
 .new,
 .featured {
@@ -287,7 +287,7 @@ a {
     color: #fff;
 }
 
-/* styling section featured end */
+/* styling section new end */
 
 /* styling section info start */
 
@@ -326,4 +326,22 @@ a {
     color: #FFFFFF;
 }
 
+.button.info:hover{
+    background-color: #fff;
+    box-shadow: 0px 4px 25px rgba(251, 251, 250, 0.671);
+    color:#03ad4a;
+
+
+}
+
 /* styling section info end */
+
+/* styling section featured start */
+
+.featured {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* styling section featured end */
+
