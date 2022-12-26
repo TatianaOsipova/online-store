@@ -163,8 +163,10 @@ a {
 
 /* styling section new start */
 
-.new,
-.featured {
+.new {
+    background-image: url(./../images/chamomile.png);
+    background-repeat: no-repeat;
+    margin-right: 0;
     padding-top: 60px;
     padding-bottom: 70px;
 }
@@ -338,9 +340,16 @@ a {
 
 /* styling section featured start */
 
-.featured {
+.featured {    
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.featured__box--right{
+    background-image: url(./../images/chamomile-1.png);
+    background-repeat: no-repeat;
+    background-position: 1692px 430px;
+
 }
 
 /* styling section featured end */
