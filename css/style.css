@@ -129,7 +129,7 @@ a {
 .color {
     background: linear-gradient(100deg, rgb(249, 249, 3), rgb(92, 207, 92), rgb(249, 3, 3));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
 }
 
 .header__text {
@@ -160,3 +160,37 @@ a {
 }
 
 /* styling header end */
+
+/* styling section featured start */
+
+.featured {}
+
+.container {}
+
+.section {}
+
+.section__header {}
+
+.section__header-title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.section__header-description {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+/* styling section featured end */
