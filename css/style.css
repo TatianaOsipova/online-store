@@ -129,7 +129,7 @@ a {
 .color {
     background: linear-gradient(100deg, rgb(249, 249, 3), rgb(92, 207, 92), rgb(249, 3, 3));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;    
 }
 
 .header__text {
