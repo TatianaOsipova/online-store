@@ -163,16 +163,22 @@ a {
 
 /* styling section featured start */
 
-.featured {}
+.featured {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
 
 .container {}
 
 .section {}
 
-.section__header {}
+.section__header {
+    margin-bottom: 40px;
+}
 
 .section__header-title {
     margin: 0;
+    margin-bottom: 10px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -192,5 +198,38 @@ a {
     text-transform: uppercase;
     color: #999999;
 }
+
+.section__header-description p {
+    margin-top: 0;
+}
+
+.products {}
+
+.products__wrapper {}
+
+.product {}
+
+.product__img {
+    display: block;
+}
+
+.product__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.product__price {}
+
+.product__price-old {}
+
+.product__price-new {}
+
+
+
 
 /* styling section featured end */
