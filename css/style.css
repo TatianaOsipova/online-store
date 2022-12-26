@@ -282,10 +282,26 @@ a {
     transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in;
 }
 
-.button__outline:hover{
+.button__outline:hover {
     background-color: #03ad4a;
     box-shadow: 0px 4px 25px rgba(51, 117, 3, 0.671);
     color: #fff;
 }
 
 /* styling section featured end */
+
+/* styling section info start */
+
+.info {}
+
+.info__section {}
+
+.info__section-row {}
+
+.info__section-title {}
+
+
+
+.button {}
+
+/* styling section info end */
