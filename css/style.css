@@ -294,7 +294,11 @@ a {
 
 .info {}
 
-.info__section {}
+.info__section {
+    background-image: url('./../images/info1-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 .info__section-row {}
 
