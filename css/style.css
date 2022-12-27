@@ -349,8 +349,16 @@ a {
     background-image: url(./../images/chamomile-1.png);
     background-repeat: no-repeat;
     background-position: 1692px 430px;
-
 }
 
 /* styling section featured end */
+
+/* styling section blog start */
+
+.blog{
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+
+/* styling section blog end */
 
