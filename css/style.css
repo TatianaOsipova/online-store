@@ -360,15 +360,47 @@ a {
     padding-bottom: 45px;
 }
 
-.post {}
+.post {
+    max-height: 570px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .post__img {}
 
-.post__content {}
+.post__content {
+    max-width: 370px;
+}
 
-.post__title {}
+.post__title {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
 
-.post__text {}
+.post__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #777777;
+}
+
+.post__read-more {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.post__read-more::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('./../icons/arrow-icon.svg');
+}
 
 
 /* styling section blog end */
