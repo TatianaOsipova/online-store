@@ -328,10 +328,10 @@ a {
     color: #FFFFFF;
 }
 
-.button.info:hover{
+.button.info:hover {
     background-color: #fff;
     box-shadow: 0px 4px 25px rgba(251, 251, 250, 0.671);
-    color:#03ad4a;
+    color: #03ad4a;
 
 
 }
@@ -340,12 +340,12 @@ a {
 
 /* styling section featured start */
 
-.featured {    
+.featured {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.featured__box--right{
+.featured__box--right {
     background-image: url(./../images/chamomile-1.png);
     background-repeat: no-repeat;
     background-position: 1692px 430px;
@@ -355,10 +355,20 @@ a {
 
 /* styling section blog start */
 
-.blog{
+.blog {
     padding-top: 70px;
     padding-bottom: 45px;
 }
 
-/* styling section blog end */
+.post {}
 
+.post__img {}
+
+.post__content {}
+
+.post__title {}
+
+.post__text {}
+
+
+/* styling section blog end */
