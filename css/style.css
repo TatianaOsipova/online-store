@@ -339,8 +339,6 @@ a {
     background-color: #fff;
     box-shadow: 0px 4px 25px rgba(251, 251, 250, 0.671);
     color: #03ad4a;
-
-
 }
 
 /* styling section info end */
@@ -452,7 +450,8 @@ a {
 }
 
 .section__header-description--bigger{
-    font-size: 16px;      
+    font-size: 16px;  
+    line-height: 22px;    
 }
 
 
