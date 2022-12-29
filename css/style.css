@@ -517,11 +517,11 @@ a {
     align-items: center;
 }
 
-.footer__nav{
-    margin-bottom: 25px;    
+.footer__nav {
+    margin-bottom: 25px;
 }
 
-.footer__nav a{
+.footer__nav a {
     font-size: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -537,7 +537,7 @@ a {
     align-items: center;
 }
 
-.footer__socials-link{
+.footer__socials-link {
     top: 77px;
 }
 
@@ -559,12 +559,5 @@ a {
     text-align: center;
     color: #999999;
 }
-
-
-
-
-
-
-
 
 /* styling footer end */
