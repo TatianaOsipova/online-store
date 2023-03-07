@@ -355,7 +355,7 @@ a {
     padding-bottom: 70px;
 }
 
-.featured__box--right {
+.featured__box-right {
     background-image: url(./../images/chamomile-1.png);
     background-repeat: no-repeat;
     background-position: 1692px 430px;
@@ -562,7 +562,8 @@ a {
 
 /* start adaptive */
 
-@media(max-width: 1200px){
+@media(max-width: 1220px){
+
     
 
     
