@@ -573,6 +573,16 @@ a {
     .section__header-title {
         font-size: 36px;
     }
+
+    .section__header-title{
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 370px) {
+    .section__header-title{
+        font-size: 30px;
+    }
 }
 
 /* @media(max-width:320px) {
