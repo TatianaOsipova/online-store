@@ -562,15 +562,17 @@ a {
 
 /* start adaptive */
 
-@media(max-width: 1130px){
-    .products__wrapper{
-        justify-content: space-around;
+@media(max-width: 1130px) {
+    .products__wrapper {
+        justify-content: center;
         gap: 40px;
     }
+}
 
-    
-
-    
+@media(max-width: 500px) {
+    .section__header-title {
+        font-size: 36px;
+    }
 }
 
 /* @media(max-width:320px) {
