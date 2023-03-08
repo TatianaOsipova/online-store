@@ -592,8 +592,6 @@ a {
     }
 }
 
-
-
 @media(max-width: 500px) {
     .section__header-title {
         font-size: 36px;
@@ -601,6 +599,12 @@ a {
 
     .section__header-title{
         font-size: 36px;
+    }
+}
+
+@media(max-width: 454px) {    
+    .info-section__title{
+       text-align: center;
     }
 }
 
