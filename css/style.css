@@ -641,7 +641,6 @@ img {
 }
 
 @media(max-width: 705px) {
-    
     .header__content {
         width: 50%;
         padding-left: 30px;
