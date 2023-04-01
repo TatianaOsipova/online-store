@@ -581,6 +581,24 @@ img {
     color: #999999;
 }
 
+.menu__btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu__btn span{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+
 /* styling footer end */
 
 /* start adaptive */
